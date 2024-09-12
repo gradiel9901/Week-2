@@ -13,8 +13,8 @@ const Counter = () => {
     const reset = () => setCount(0);
 
     const moveButton = (button) => {
-        const randomX = Math.random() * 300 - 200;
-        const randomY = Math.random() *
+        const randomX = Math.random() * 200 - 100;
+        const randomY = Math.random() * 200 - 100;
         setButtonPosition((prevPosition) => ({
             ...prevPosition,
             [button]: {
